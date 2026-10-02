@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: '/api',
+  baseURL: 'https://financeflow-backend-4qgd.onrender.com/api',
   timeout: 15000,
   headers: {
     'Content-Type': 'application/json',
